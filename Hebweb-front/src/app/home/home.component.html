@@ -1,0 +1,8 @@
+<div class="container">
+    <h2>Choisissez votre VPS</h2>
+    <div class="vps-list">
+      <p *ngFor="let offer of vpsOffers">
+        {{ offer.name }} : {{ offer.cpu }} CPU, {{ offer.ram }} Go RAM, {{ offer.storage }} Go SSD - {{ offer.price }}€/mois
+      </p>
+    </div>
+  </div>
