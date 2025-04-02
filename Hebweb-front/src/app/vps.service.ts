@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class VpsService {
 
-  private apiUrl= 'http://loclahost:3036/api/vps'; // Url vers l'api à ajuster
+  private apiUrl= 'http://loclahost:8080/api/vps'; // Url vers l'api à ajuster
 
   constructor(private http: HttpClient) { }
 
